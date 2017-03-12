@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.losange1 {
+    float: left;
+    position: relative;
+    margin: -2.96%;
+    height: 40%;
+    width: 20%;
+    background: red;
+    -ms-transform: rotate(45deg);
+    /* Internet Explorer */
+    -moz-transform: rotate(45deg);
+    /* Firefox */
+    -webkit-transform: rotate(45deg);
+    /* Safari et Chrome */
+    -o-transform: rotate(45deg);
+    /* Opera */
+}
+
+.losange1:nth-child(even) {
+    background-color: blue;
+    margin-top: 11.3%;
+}
+
+.contain-losange {
+    width: 800px;
+    height: 400px;
+    background-color: grey;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.front-page{
+  width:100%;
+  height: 100%;
+}
+
+.front-page img {
+  position: absolute;
+    margin:0;
+    max-width:100%;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+div.parallax-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+}
+.nd-page{
+height:100%;
+width:100%;
+position: absolute;
+z-index:1;
+background-image: url("../img/finger_painting_art-t2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+}
+.nd-page img{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  z-index:1;
+}
